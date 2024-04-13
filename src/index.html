@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: A starter project for ..." />
+
+    <link rel="stylesheet" href="./stylesheets/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+        <h1 class="mt-4 text-center"><i class="bi bi-book-half"></i> Guest Book</h1>
+        <form id="guestForm" class="mt-4">
+            <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+        </form>
+        <button class="btn btn-danger mt-4" id="clearAllButton">Clear All</button>
+        <table class="table mt-4" id="guestTable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
+</html>
