@@ -1,0 +1,164 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+  height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  padding: 0px 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+  font-size: 2rem;
+}
+
+.navbar-toggler {
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #fff;
+  background-color: #ffd34e;
+}
+
+/* Responsive behavior */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    margin: 0.5rem 0;
+  }
+}
+
+.divider01 {
+  height: 10vh;
+}
+
+.intro01 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.intro01 h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.intro01 p {
+  font-size: 1.25rem;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.introLeft,
+.introRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767.98px) {
+  .introRight {
+   display: none;
+  }
+
+  .buttons01 .btn {
+    font-size: .8rem;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (min-width: 768px) { 
+  .introLeft, .introRight {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
+
+@media (min-width: 992px) {
+  .divider01 {
+    height: 5vh; 
+  }
+}
+
+
+.introLeft {
+  margin-right: 10px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.brandImage {
+  width: 200px;
+  height: 200px;
+}
+
+.half-screen-image {
+  width: 45vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.resume-btn,
+.contact-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: black 1px solid;
+  transition: background-color 0.3s ease;
+  background-color: #ffd34e;
+}
+
+.buttons01 {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.resume-btn {
+  margin-right: 25px;
+}
+
+.resume-btn:hover {
+  background-color: white;
+}
+
+.contact-btn:hover {
+  background-color: white;
+}

@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Project Starter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index,follow" />
-    <meta name="description" content="TODO: A starter project for ..." />
 
-    <link rel="stylesheet" href="./stylesheets/main.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rob Mixon Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <style>
 
-  <body>
-    <div class="container">
-        <h1 class="mt-4 text-center"><i class="bi bi-book-half"></i> Guest Book</h1>
-        <form id="guestForm" class="mt-4">
-            <div class="mb-3">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" required>
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">RM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/dropdown.svg" alt="dropdown" class="navbar-toggler-icon">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Skills</a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" required>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row intro01">
+                <div class="col-12 col-md-6 introLeft">
+                    <div class="divider01 d-none d-md-block"></div>
+                    <img src="./images/brand.svg" alt="brand image" class="brandImage img-fluid">
+                    <h5>Hi there! I'm</h5>
+                    <h1>Rob Mixon</h1>
+                    <p>Veteran turned Software Engineer, seamlessly transitioned from the disciplined world of military
+                        service to the dynamic realm of technology. Leveraging skills honed during his time in the armed
+                        forces—such as leadership, perseverance, and strategic thinking—Rob now excels in creating
+                        robust software solutions and project management. His unique perspective enriches his approach
+                        to problem-solving, making him a valued asset in any tech team as he continues to adapt and
+                        innovate in his coding career.</p>
+                    <div class="buttons01">
+                        <button class="btn resume-btn">MY RESUME</button>
+                        <button class="btn contact-btn">CONTACT ME</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 introRight">
+                    <img src="./images/jumbotronImage.jpg" alt="jumbotron image" class="half-screen-image img-fluid">
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
-            <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
-        </form>
-        <button class="btn btn-danger mt-4" id="clearAllButton">Clear All</button>
-        <table class="table mt-4" id="guestTable">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First Name</th>
-                    <th scope="col">Last Name</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
+        </div>
+    </main>
 
-    <script type="module" src="./javascripts/main.js"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
 </html>
