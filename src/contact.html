@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rob Mixon Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="./stylesheets/contact.css">
+
+    <style>
+        .contact01 {
+            height: 100%;
+            margin-top: 20px;
+        }
+
+        .contact01 h1 {
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .contact01 p {
+            font-size: 1.25rem;
+            color: #666;
+            line-height: 1.6;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">RM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/dropdown.svg" alt="dropdown" class="navbar-toggler-icon">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="skills.html">Skills</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container01">
+            <div class="contact01">
+                <h2 class="text-center">CONTACT</h2>
+                <p class="text-center">Have a question? Please use the form below to send a message and I will get
+                    back to you as soon as possible. Thank you!</p>
+                <form id="contact-form" class="contact-form">
+                    <input type="hidden" name="contact_number" value="697483">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name*" name="user_name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address*" name="user_email"
+                            required />
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Phone Number*" name="user_phone" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Message*" rows="5" name="user_message"
+                            required></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="privacyCheck" required />
+                        <label class="form-check-label" for="privacyCheck">I accept the above information will be
+                            used to contact me.</label>
+                    </div>
+                    <button type="submit" class="btn submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="name">
+            Rob Mixon
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rob-mixon/" class="linkedin" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/RobMixon" class="github" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="./javascripts/contact.js"></script>
+
+</body>
+
+</html>

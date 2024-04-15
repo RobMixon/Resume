@@ -1,0 +1,51 @@
+.contact01 {
+    height: 100%;
+    margin-top: 20px;
+}
+
+.contact01 h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.contact01 p {
+    font-size: 1.25rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.submit-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: black 1px solid;
+    transition: background-color 0.3s ease;
+    background-color: #ffd34e;
+}
+
+.submit-btn:hover {
+    background-color: black;
+    color: white;
+    border: black 1px solid;
+}
+
+.form-check {
+    margin-top: 20px;
+}
+
+.form-check-input {
+    /* Scale the checkbox */
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.form-check-label {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}

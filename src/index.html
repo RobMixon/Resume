@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rob Mixon Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./stylesheets/main.css">
     <link rel="stylesheet" href="./stylesheets/index.css">
-    <style>
-
-    </style>
 </head>
 
 <body>
@@ -23,16 +22,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Skills</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="skills.html">Skills</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container01">
             <div class="row intro01">
                 <div class="col-12 col-md-6 introLeft">
                     <div class="divider01 d-none d-md-block"></div>
@@ -46,8 +45,9 @@
                         to problem-solving, making him a valued asset in any tech team as he continues to adapt and
                         innovate in his coding career.</p>
                     <div class="buttons01">
-                        <button class="btn resume-btn">MY RESUME</button>
-                        <button class="btn contact-btn">CONTACT ME</button>
+                        <a href="./images/Mixon_Resume_SoftwareDeveloperPDF.pdf" target="_blank"
+                            class="btn resume-btn">MY RESUME</a>
+                        <a href="./contact.html" target="_blank" class="btn contact-btn">CONTACT ME</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 introRight">
@@ -56,6 +56,17 @@
             </div>
         </div>
     </main>
+
+    <footer class="footer">
+        <div class="name">
+            Rob Mixon
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rob-mixon/" class="linkedin" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/RobMixon" class="github" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>

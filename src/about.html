@@ -1,82 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Rob Mixon Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="./stylesheets/about.css">
     <style>
-        .jumbotron {
-            background-image: url('./images/headShot.JPG');
-            background-size: cover;
-            height: 300px;
-            color: white;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
 
-        .lead {
-            font-size: 2rem;
-        }
     </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Welcome!</h1>
-            <p class="lead">Professionalism and Excellence</p>
-        </div>
-    </div>
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-sm-12 col-md-8 col-lg-6">
-                <h2>Featured Content</h2>
-                <p>Highlighting key achievements and recent projects. Explore my portfolio to see my work and experience.</p>
-            </div>
-        </div>
-    </div>
-    <footer class="bg-dark text-white mt-4">
-        <div class="container-fluid py-3">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>© 2024 Rob Mixon</p>
-                </div>
-                <div class="col-md-6 text-end">
-                    <a href="https://twitter.com" class="text-white me-2">Twitter</a>
-                    <a href="https://facebook.com" class="text-white me-2">Facebook</a>
-                    <a href="https://linkedin.com" class="text-white">LinkedIn</a>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">RM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/dropdown.svg" alt="dropdown" class="navbar-toggler-icon">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="skills.html">Skills</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container01">
+            <div class="about01">
+                <div class="col-lg-6 col-md-12 aboutLeft">
+                    <img src="./images/headShot.JPG" alt="Rob Mixon" class="img-fluid headShot">
+                </div>
+                <div class="col-lg-6 col-md-12 aboutRight">
+                    <h2>ABOUT ROB</h2>
+                    <p>Veteran turned Software Engineer, seamlessly transitioned from the disciplined world of
+                        military service to the dynamic realm of technology. I am Robert Mixon, a Full Stack
+                        Software
+                        Developer based in Ogden, UT. After serving diligently in the U.S. Army,
+                        where I mastered the arts of leadership, strategic planning, and problem-solving, I
+                        redirected my career
+                        path towards technology. Today, I am proficient in JavaScript, C#, .NET,
+                        and several other programming languages, with a strong emphasis on developing scalable,
+                        user-friendly applications.
+                        My educational journey in Computer Science at Weber State University has further solidified
+                        my technical skills,
+                        preparing me to tackle complex challenges in the tech world.
+                    </p>
+                    <p>
+                        Currently employed with Orion Federal Credit Union as a React/Node.js Software Developer, I
+                        engage in creating sophisticated
+                        applications using the MERN stack and enhancing user experience with responsive, interactive
+                        interfaces. My previous role
+                        at EnableComp allowed me to gain substantial expertise in AngularJS and .NET, where I
+                        supported and enhanced software
+                        functionalities while adhering to the Agile methodology. My approach to software development
+                        is methodical and focused,
+                        ensuring that all projects I undertake are completed with the highest standards of quality
+                        and efficiency.
+
+                    </p>
+                    <p>
+                        My dual expertise in tactical military operations and software development allows me to
+                        bring a unique perspective to the tech industry.
+                        I am driven by a commitment to excellence and a continuous desire to learn and grow within
+                        this field, aiming to contribute positively
+                        to my team and to deliver exceptional results. Whether it’s leading a squad or coding at a
+                        desk, my goal is to excel and inspire those
+                        around me.
+                    </p>
+                    <div class="buttons01">
+                        <a href="./images/Mixon_Resume_SoftwareDeveloperPDF.pdf" target="_blank" class="btn resume-btn">MY RESUME</a>
+                        <a href="./contact.html" target="_blank" class="btn contact-btn">CONTACT ME</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="name">
+            Rob Mixon
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/rob-mixon/" class="linkedin" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/RobMixon" class="github" target="_blank"><i class="fab fa-github"></i></a>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>src="./"</script>
 </body>
+
 </html>

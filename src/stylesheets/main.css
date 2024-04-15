@@ -1,3 +1,143 @@
 /* Your styles go here */
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container01 {
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  padding: 0px 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+  font-size: 2rem;
+}
+
+.navbar-toggler {
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #fff;
+  background-color: #ffd34e;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    margin: 0.5rem 0;
+  }
+}
+
+.resume-btn,
+.contact-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: black 1px solid;
+  transition: background-color 0.3s ease;
+  background-color: #ffd34e;
+}
+
+.buttons01 {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.resume-btn {
+  margin-right: 25px;
+}
+
+.resume-btn:hover {
+  background-color: black;
+  color: white;
+  border: black 1px solid;
+}
+
+.contact-btn:hover {
+  background-color: black;
+  color: white;
+  border: black 1px solid;
+}
+
+@media (max-width: 767.98px) {
+  .buttons01 .btn {
+    font-size: .8rem;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+.divider01 {
+  height: 10vh;
+}
+
+@media (min-width: 992px) {
+  .divider01 {
+    height: 5vh;
+  }
+}
+
+.footer {
+  background-color: #333; /* Change as per your color */
+  color: white;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+.footer .name {
+  margin-left: 20px; /* Add space from the left side */
+  font-size: 1.5em; /* Adjust the size as needed */
+}
+.footer .social-icons {
+  margin-right: 20px; /* Add space from the right side */
+}
+.footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 2em; /* 3 times larger than the default size */
+}
+.footer .social-icons a:hover {
+  color: #ffd34e; /* Change hover color if needed */
+}
