@@ -1,4 +1,4 @@
-/* Your styles go here */
+
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
 
@@ -117,7 +117,7 @@ header {
 }
 
 .footer {
-  background-color: #333; /* Change as per your color */
+  background-color: #333;
   color: white;
   padding: 5px 0;
   display: flex;
@@ -127,17 +127,17 @@ header {
   position: fixed;
 }
 .footer .name {
-  margin-left: 20px; /* Add space from the left side */
-  font-size: 1.5em; /* Adjust the size as needed */
+  margin-left: 20px;
+  font-size: 1.5em;
 }
 .footer .social-icons {
-  margin-right: 20px; /* Add space from the right side */
+  margin-right: 20px;
 }
 .footer .social-icons a {
   color: white;
   margin: 0 10px;
-  font-size: 2em; /* 3 times larger than the default size */
+  font-size: 2em;
 }
 .footer .social-icons a:hover {
-  color: #ffd34e; /* Change hover color if needed */
+  color: #ffd34e; 
 }
