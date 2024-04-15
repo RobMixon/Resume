@@ -2,74 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rob Mixon Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="./stylesheets/main.css">
-    <link rel="stylesheet" href="./stylesheets/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rob Mixon Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="./stylesheets/main.css">
+  <link rel="stylesheet" href="./stylesheets/portfolio.css">
+  <style></style>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">RM</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="./images/dropdown.svg" alt="dropdown" class="navbar-toggler-icon">
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="about.html">About</a>
-                    <a class="nav-item nav-link" href="skills.html">Skills</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container01">
-            <div class="row intro01">
-                <div class="col-12 col-md-6 introLeft">
-                    <div class="divider01 d-none d-md-block"></div>
-                    <img src="./images/brand.svg" alt="brand image" class="brandImage img-fluid">
-                    <h5>Hi there! I'm</h5>
-                    <h1>Rob Mixon</h1>
-                    <p>Veteran turned Software Engineer, seamlessly transitioned from the disciplined world of military
-                        service to the dynamic realm of technology. Leveraging skills honed during his time in the armed
-                        forces—such as leadership, perseverance, and strategic thinking—Rob now excels in creating
-                        robust software solutions and project management. His unique perspective enriches his approach
-                        to problem-solving, making him a valued asset in any tech team as he continues to adapt and
-                        innovate in his coding career.</p>
-                    <div class="buttons01">
-                        <a href="./images/Mixon_Resume_SoftwareDeveloperPDF.pdf" target="_blank" class="btn resume-btn">MY RESUME</a>
-                        <a href="./contact.html" class="btn contact-btn">CONTACT ME</a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 introRight">
-                    <img src="./images/jumbotronImage.jpg" alt="jumbotron image" class="half-screen-image img-fluid">
-                </div>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">RM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./images/dropdown.svg" alt="dropdown" class="navbar-toggler-icon">
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="skills.html">Skills</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
-    </main>
+      </div>
+    </nav>
+  </header>
 
-    <footer class="footer">
-        <div class="name">
-            Rob Mixon
-        </div>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/rob-mixon/" class="linkedin" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/RobMixon" class="github" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-    </footer>
+  <main>
+    <div class="container01 portfolio-section">
+      <div class="portfolio01">
+        <h2>Portfolio</h2>
+        <div class="row">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="./images/orion.svg" class="card-img" alt="Orion FCU">
+              <div class="card-body">
+                <h4 class="card-title">Orion FCU</h4>
+                <h5 class="card-subTitle">Professional Work</h5>
+                <p class="card-text">At Orion Federal Credit Union, I designed the UI/UX and APIs for three new
+                  applications using React, TypeScript, Node.js, and NestJS, enhancing member experience and
+                  service efficiency.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="./images/enableComp.svg" class="card-img" alt="EnableComp">
+              <div class="card-body">
+                <h4 class="card-title">EnableComp</h4>
+                <h5 class="card-subTitle">Professional Work</h5>
+                <p class="card-text">Developed UI/UX and APIs for two applications at EnableComp using AngularJS,
+                  JavaScript, C#, .NET Core, Entity Framework, and SQL, streamlining processes and improving user
+                  engagement.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="./images/nutshell.svg" class="card-img" alt="nutshell application">
+              <div class="card-body">
+                <h4 class="card-title">Nutshell</h4>
+                <h5 class="card-subTitle">Front-End Application</h5>
+                <p class="card-text">Created a social platform app for user interaction with posts, events, articles, and
+                  task reminders. Implemented full CRUD with JavaScript, React Hooks, and JSON server for data storage.
+                </p>
+                <a href="https://github.com/RobMixon/react-nutshell-the-hazelnuts" class="btn btn-primary github-btn" target="_blank">Check
+                  it out!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="./images/decisiveFriend.svg" class="card-img" alt="decisiveFriend application">
+              <div class="card-body">
+                <h4 class="card-title">Decisive Friend</h4>
+                <h5 class="card-subTitle">Full Stack Application</h5>
+                <p class="card-text">This single-page web application eliminates indecisiveness by suggesting
+                  dining and study locations. Built with React.js, JS, CSS, HTML, and the Google Places API,
+                  it filters data to enhance your decision-making efficiency.</p>
+                  <a href="https://github.com/RobMixon/decisive-friend-app" class="btn btn-primary github-btn" target="_blank">Check it out!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="./images/spaceInvaders.svg" class="card-img" alt="nutshell application">
+              <div class="card-body">
+                <h4 class="card-title">Space Invaders!</h4>
+                <h5 class="card-subTitle">Python Application</h5>
+                <p class="card-text">Recreated Space Invaders in Python utilizing the Pygame Library to 
+                  manage game elements, handle events, and render graphics for that classic arcade feel.
+                </p>
+                <a href="https://github.com/RobMixon/LearnArcadeWork" class="btn btn-primary github-btn" target="_blank">Check
+                  it out!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="./images/seleniumPython.svg" class="card-img" alt="decisiveFriend application">
+              <div class="card-body">
+                <h4 class="card-title">Selenium/Python Project</h4>
+                <h5 class="card-subTitle">Test Application</h5>
+                <p class="card-text">Creating a Selenium test in Python involves setting up a WebDriver, initializing a
+                   browser instance, and writing scripts to automate and validate web application behavior.</p>
+                  <a href="https://github.com/RobMixon/SeleniumProjectInPython" class="btn btn-primary github-btn" target="_blank">Check it out!</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="name">
+      Rob Mixon
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/rob-mixon/" class="linkedin" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/RobMixon" class="github" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

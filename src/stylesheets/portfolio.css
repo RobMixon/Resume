@@ -1,0 +1,62 @@
+.portfolio-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.portfolio01 {
+    height: 100%;
+    margin-top: 20px;
+}
+
+.card {
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img {
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+}
+
+.card-body {
+    width: 50%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    overflow-y: auto; 
+    padding: 20px; 
+}
+.github-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    background-color: #007bff;
+}
+
+@media (max-width: 991.98px) { 
+    .card {
+      height: 300px; 
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .card {
+      flex-direction: column; 
+      height: auto; 
+    }
+    .card-img, .card-body {
+      width: 100%;
+    }
+  }
+

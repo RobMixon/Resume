@@ -14,7 +14,7 @@ const uiUxDesign = [
 
 const programmingDevelopment = [
     'HTML', 'CSS', 'GIT', 'TypeScript', 'React', 'AngularJS', 'NodeJS', 'NESTJS',
-     'C#', '.Net', 'Python', 'C++', 
+     'C#', '.Net', 'Python', 'C++', 'Selenium', 'TestCafe',
      'MongoDB', 'SQL'
 ];
 
